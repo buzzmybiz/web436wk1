@@ -1,0 +1,205 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cooper's Candy Cafe</title>
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="../_scripts/respond.min.js"></script>
+<![endif]-->
+<link href="_css/main.css" rel="stylesheet" media="screen, projection">
+<link href="_css/range.css" rel="stylesheet" media="screen, projection">
+<meta name="viewport" content="initial-scale=1.0" />
+<script src="_scripts/jquery-1.8.2.min.js"></script>
+</head>
+<body id="blogPage">
+<header class="blogHeader pageHeader">
+  <h1>Roux Academy of Art and Design<a href="/index.htm" title="home"></a></h1>
+  <nav id="pageNav" class="cf">
+    <ul>
+      <li><a href="programs/programs.htm" title="programs">Programs</a></li>
+      <li><a href="admissions.htm" title="admissions">Admissions</a></li>
+      <li><a href="student_portal.htm" title="student portal">Student Portal</a></li>
+      <li><a href="campus_portal.htm" title="campus portal">Campus</a></li>
+      <li><a href="alumni.htm" title="alumni">Alumni</a></li>
+      <li><a href="store/index.php"  title="Roux Academy Store">store</a></li>
+      <li><a href="about/about.htm"  title="about Roux Academy">About</a></li>
+    </ul>
+  </nav>
+</header>
+<div id="contentWrapper">
+  <article id="mainContent">
+    <h1>Cooper's Candy Cafe</h1>
+    <article class="post">
+      <h2><a href="#">Cool candy. Hot prices.</a></h2>
+      <p>Handmade candy crafted in deeply Southern traditions.
+
+</p>
+    </article>
+    <article id="gallery" class="post">
+      <div id="painting1" class="painting" draggable="true"><img src="_images/candy1.png" width="190" height="190" alt="Jellybeans">
+        <p>Jellybeans - <span class="price">$25</span></p>
+      </div>
+      <div id="painting2" class="painting" draggable="true"> <img src="_images/candy2.png" width="190" height="190" alt="Candy Corn">
+        <p>Candy Corn - <span class="price">$40</span></p>
+      </div>
+      <div id="painting3" class="painting lastOne" draggable="true"> <img src="_images/candy3.png" width="190" height="190" alt="M&Ms">
+        <p>M&Ms - <span class="price">$10</span></p>
+      </div>
+
+      <div id="painting4" class="painting" draggable="true"><img src="_images/candy4.png" width="190" height="190" alt="Gumballs">
+        <p>Gumballs - <span class="price">$15</span></p>
+      </div>
+      <div id="painting5" class="painting" draggable="true"><img src="_images/candy5.png" width="190" height="190" alt="Dipping Dots">
+        <p>Dipping Dots - <span class="price">$20</span></p>
+      </div>
+      <div id="painting6" class="painting lastOne" draggable="true"> <img src="_images/candy6.png" width="190" height="190" alt="Gummy Worms">
+        <p>Gummy Worms - <span class="price">$35</span></p>
+      </div>
+      
+            <div id="painting7" class="painting" draggable="true"><img src="_images/candy7.png" width="190" height="190" alt="Gummy Bears">
+        <p>Gummy Bears - <span class="price">$15</span></p>
+      </div>
+      <div id="painting8" class="painting" draggable="true"><img src="_images/candy8.png" width="190" height="190" alt="Sugar Drops">
+        <p>Sugar Drops - <span class="price">$20</span></p>
+      </div>
+      <div id="painting9" class="painting lastOne" draggable="true"> <img src="_images/candy9.png" width="190" height="190" alt="Cinnamon Discs">
+        <p>Cinnamon Discs - <span class="price">$35</span></p>
+      </div>
+      
+    </article>
+  </article>
+  <aside>
+    <section class="info">
+      <div class="widget">
+        <h2>Price Slider</h2>
+        <form name="form1" method="post" action="">
+          <p>
+            <input id="slider" type="range" min="10" max="40" step="5" value="40" onchange="printValue('slider','rangeValue')" />
+	        <input id="rangeValue" type="text" size="2"/>
+          </p>
+        </form>
+      </div>
+      <div id="favorites" class="widget">
+        <h2>Favorites</h2>
+        <p>Drag Favorites Here</p>
+        <ul id="faves"></ul>
+      </div>
+    </section>
+  </aside>
+</div>
+<footer id="pageFooter" class="cf">
+  <nav class="footerNav">
+    <section class="col">
+      <h3>About Cooper's Candy'</h3>
+      <div class="col1">
+        <ul>
+          <li><a href="_source/mission.htm" title="Our mission">Mission Statement</a></li>
+          <li><a href="_source/history.htm" title="school history">Cafe History</a></li>
+          <li><a href="_source/accreditation.htm" title="accreditation and affliates">Accreditation &amp; Affiliates</a></li>
+          <li><a href="_source/board.htm" title="board members">Team Members</a></li>
+        </ul>
+      </div>
+      <div class="col2">
+        <ul>
+          <li><a href="_source/faculty.htm" title="faculty and staff">Staff Bios</a></li>
+          <li><a href="_source/visiting_professors.htm" title="visiting professors">Visiting Cooks</a></li>
+          <li><a href="_source/museum.htm" title="Maribielle Roux Museum">Candy Museum</a></li>
+          <li><a href="_source/directions.htm" title="directions">Map &amp; Directions</a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="col">
+      <h3>Creating Candy Programs</h3>
+      <div class="col1">
+        <ul>
+          <li><a href="_source/degrees.htm" title="Degree programs">Creating Candy Programs</a></li>
+          <li><a href="_source/catalog.htm" title="course catalog">Course Catalog</a></li>
+          <li><a href="_source/fine_art.htm" title="fine art programs">Sweets & Treats</a></li>
+          <li><a href="_source/design.htm" title="design concentration">Delightful Designs</a></li>
+        </ul>
+      </div>
+      <div class="col2">
+        <ul>
+          <li><a href="_source/fashion.htm" title="fashion program">Fashion Program</a></li>
+          <li><a href="_source/product_design.htm" title="product design">Product Design</a></li>
+          <li><a href="_source/continuing_ed.htm" title="Continuing Education">Continuing Education</a></li>
+          <li><a href="_source/financial_aid.htm" title="tuition and financial aid">Tuition &amp; Financial Aid</a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="col">
+      <h3>Student Resources</h3>
+      <div class="col1">
+        <ul>
+          <li><a href="_source/campus.htm" title="Campus information">Campus Information</a></li>
+          <li><a href="_source/housing.htm" title="student housing">Student Housing</a></li>
+          <li><a href="_source/contact.htm" title="transcript request">Transcript Request</a></li>
+          <li><a href="_source/applying.htm" title="application process">Application Process</a></li>
+        </ul>
+      </div>
+      <div class="col2">
+        <ul>
+          <li><a href="_source/portfolio_review.htm" title="portfolio review">Portfolio Review</a></li>
+          <li><a href="_source/conselling.htm" title="career counselling">Career Counselling</a></li>
+          <li><a href="_source/internships.htm" title="internship programs">Internship Programs</a></li>
+          <li><a href="_source/student_portal.htm" title="student portal login">Student Portal Login</a></li>
+        </ul>
+      </div>
+    </section>
+  </nav>
+  <p>&copy;Copyright Cooper's Candy Cafe,  All rights reserved. <a href="_source/privacy.htm" title="privacy statement">Privacy Statement</a> |<a href="_source/legal.htm" title="legal terms"> Legal Terms and Conditions</a> </p>
+</footer>
+<script type="text/javascript" src="_scripts/jquery.ndd.js"></script>
+<script type="text/javascript" src="_scripts/dragdrop.js"></script>
+<script>
+        function printValue(sliderID, textbox) {
+            var x = document.getElementById(textbox);
+            var y = document.getElementById(sliderID);
+            x.value = y.value;
+        }
+
+        window.onload = function() { printValue('slider', 'rangeValue') }
+</script>
+<script>
+	$('#painting1').data({ id:1, price:25 });
+	$('#painting2').data({ id:2, price:40 });
+	$('#painting3').data({ id:3, price:10 });
+	$('#painting4').data({ id:4, price:15 });
+	$('#painting5').data({ id:5, price:20 });
+	$('#painting6').data({ id:6, price:35 });
+	$('#painting7').data({ id:7, price:15 });
+	$('#painting8').data({ id:8, price:20 });
+	$('#painting9').data({ id:9, price:35 });
+	
+	$(document).ready(function () {
+		var theValue;
+
+		$("#slider").change(function() {
+			theValue = $("#rangeValue").val();
+			filterItems(theValue) ;
+		});
+	});
+
+	function filterItems(priceCriteria)
+	{
+		$.each($('#gallery div'), function(i, item) {
+			$item = $(item); 
+			itemData = $item.data();
+			if(itemData.price <= priceCriteria) 
+			{
+				$item.animate({opacity: 1});
+				itemData.matching = true;
+			}
+			else
+			{
+				$item.animate({opacity: 0.5});
+				itemData.matching = false;
+			}
+		});
+	}
+</script>
+</body>
+</html>
